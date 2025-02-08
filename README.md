@@ -6,7 +6,6 @@
 - [Setup](#setup)
 - [Usage](#usage)
 - [Making Changes](#making-changes)
-- [Thanks](#thanks)
 - [License](#license)
 
 ## Requirements
