@@ -1,0 +1,28 @@
+{
+  "name": "genkit-project",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "author": "yukinagae <yuki.nagae1130@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "check": "biome check ./src",
+    "fix": "biome check --write ./src",
+    "genkit": "genkit start -o -- npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "^16.4.7",
+    "genkit": "^0.9.1",
+    "genkitx-openai": "^0.11.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
