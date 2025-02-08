@@ -1,6 +1,6 @@
-# genkit-sample
+# genkit-project
 
-`genkit-sample` is your starting point for learning about Firebase Genkit, an open-source framework that helps developers create AI-powered applications.
+`genkit-project` is your starting point for learning about Firebase Genkit, an open-source framework that helps developers create AI-powered applications.
 
 - [Requirements](#requirements)
 - [Setup](#setup)
@@ -77,12 +77,6 @@ $ npm run typecheck # type check without modifying files
 $ npm run check     # scan without modifying files
 $ npm run fix       # modify files
 ```
-
-## Thanks
-
-Big thanks to:
-
-- [GitHub - tanabee/genkit-summarize-webpage](https://github.com/tanabee/genkit-summarize-webpage)
 
 ## License
 
