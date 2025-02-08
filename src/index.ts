@@ -45,7 +45,7 @@ export const summarizeFlow = ai.defineFlow(
   async (url: string) => {
     const llmResponse = await ai.generate({
       prompt: `First, fetch this link: "${url}". Then, summarize the content within 20 words.`,
-      model: gpt4o, // Specify the model to use for generation
+      model: gpt4o, 
       tools: [webLoader], // Include the webLoader tool defined earlier for fetching webpage content
       config: {
         temperature: 1, // Set the creativity/variation of the response
