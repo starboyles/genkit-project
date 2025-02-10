@@ -2,7 +2,7 @@
   "name": "genkit-project",
   "version": "0.0.0",
   "main": "lib/index.js",
-  "author": "yukinagae <yuki.nagae1130@gmail.com>",
+  "author": "Leslie Gyamfi",
   "license": "MIT",
   "engines": {
     "node": "22"
